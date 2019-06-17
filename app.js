@@ -65,6 +65,6 @@ mongoose.connect('mongodb://localhost:27017/blog',{ useNewUrlParser: true },err 
 });
 
 // 监听端口
-app.listen(8081,()=>{
+app.listen(8081,'0.0.0.0',()=>{
   console.log('app is running 8081 port!');
 });
